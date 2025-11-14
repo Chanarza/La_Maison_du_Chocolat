@@ -1,4 +1,7 @@
-@import 'variables';
-@import 'mixins';
-@import 'global';
-@import 'layout';
+@use "./components/base";
+@use "layout/footer";
+@use "layout/header";
+@use "sections/actuality";
+@use "sections/contact";
+@use "sections/hero";
+@use "sections/quality";

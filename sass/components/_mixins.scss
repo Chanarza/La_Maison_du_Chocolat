@@ -1,0 +1,15 @@
+ @use "../abstract/variables" as *;
+
+@mixin container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@mixin button {
+  background-color: $framboise;
+  color: $white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}

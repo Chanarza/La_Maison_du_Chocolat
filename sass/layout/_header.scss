@@ -1,0 +1,30 @@
+ @use "../abstract/variables" as *;
+ @use "../components/mixins" as *;
+
+ .header {
+
+     &__title {
+         color: $footer-color;
+         text-align: center;
+     }
+
+     &__title span {
+         color: $framboise;
+     }
+
+     &__nav {
+         margin-top: 0.7rem
+     }
+
+     &__nav ul {
+
+         list-style: none;
+         display: flex;
+         justify-content: center;
+         gap: 0.8rem;
+         font-size: 0.7rem;
+         font-weight: bolder;
+         text-transform: uppercase;
+     }
+
+ }

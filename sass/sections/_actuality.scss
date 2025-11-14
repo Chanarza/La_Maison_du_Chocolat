@@ -1,0 +1,12 @@
+ @use "../abstract/variables" as *;
+ @use "../components/mixins" as *;
+
+.actuality {
+    &__cards {
+
+    }
+    button {
+        @include button;
+    }
+}
+

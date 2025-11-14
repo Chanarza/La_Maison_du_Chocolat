@@ -1,0 +1,8 @@
+ @use "../abstract/variables" as *;
+ @use "../components/mixins" as *;
+
+.contact {
+    button {
+        @include button;
+    }
+}

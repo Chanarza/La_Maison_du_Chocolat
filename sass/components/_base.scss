@@ -1,0 +1,40 @@
+// ici tu mets tout le style global 
+// c'est à dire non spécifique
+// par ex: html, body, p, li, a...
+ @use "../abstract/variables" as *;
+ @use "../components/mixins" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: $font;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h3 {
+  color: $footer-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
