@@ -1,0 +1,16 @@
+header {
+  @include container;
+  padding: 60px 0;
+  text-align: center;
+}
+
+section {
+  @include container;
+  padding: 80px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
