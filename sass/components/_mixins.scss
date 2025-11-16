@@ -1,9 +1,17 @@
+/*$lightblue: #BDECF6;
+$lightgray: #ECECEC;
+$gray: #747474;
+$font-color: #767676;
+$footer-color: #444444;
+$framboise: #E83B89;
+$white: #FFFFFF;
+$background-promotion: #efefef;
+$font: 'roboto';*/
  @use "../abstract/variables" as *;
 
 @mixin container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+    width: 100%;
+    margin : 0 auto;
 }
 
 @mixin button {
@@ -12,4 +20,17 @@
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+}
+
+@mixin center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin description {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }

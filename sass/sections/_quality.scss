@@ -1,2 +1,37 @@
+/*$lightblue: #BDECF6;
+$lightgray: #ECECEC;
+$gray: #747474;
+$font-color: #767676;
+$footer-color: #444444;
+$framboise: #E83B89;
+$white: #FFFFFF;
+$background-promotion: #efefef;
+$font: 'roboto';*/
+
  @use "../abstract/variables" as *;
  @use "../components/mixins" as *;
+
+
+.quality {
+    @include container;
+
+    &__cards {
+        width: 90%;
+        margin: 20px auto;
+        @include center;
+        text-align: center;
+    }
+
+    &__cards h3 {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__cards h3, p {
+        color: $footer-color;
+    }
+    &__images {
+        margin :20px auto;
+    }
+
+}
